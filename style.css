@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  height: 100vh;
+  /* background-image: linear-gradient(#a088a0,#a79595); */
+  
+}
+
+.container{
+  padding-left:5%;
+}
+
+.col{
+    /* width: 90%; */
+    /* height: 70vh; */
+    padding: 20px;
+    align-items: center;
+    border: 1px solid white;
+    background-color:black;
+    box-shadow:  0 15px 15px rgba(65, 64, 64, 0.6) ;
+}
+
+h1{
+    font-size: 30px;
+    color:rgb(22, 49, 49);
+    text-align: center;
+    padding: 40px;
+}
+
+/*first part*/
+.firstpart{
+    display: flex;
+    padding-left:25%;
+}
+.firstpart h3{
+    font-size: 40px;
+    padding: 30px;
+    color: white;
+}
+.firstpart span{
+    font-size: 30px;
+    color: red;
+    padding: 60px;
+    font-weight: 10px;
+}
+
+
+/*second part*/
+.secondpart{
+    padding-top: 50px;
+    display: flex;
+    padding-left: 13%;
+}
+
+.secondpart p{
+    color: white;
+    padding-right: 10px;
+    font-size: 30px;
+    display: inline;
+}
+.secondpart span{
+    font-size: 30px;
+    padding: 35px;
+}
+.ap{
+  display: inline;
+}
+.secondpart span{
+  color: red;
+}
+
+/*third part*/
+.thirdpart p{
+    font-size: 25px;
+    padding: 25px;
+    color: white;
+}
+
+.thirdpart{
+    padding-top: 50px;
+    padding-left: 15%;
+    display: flex;
+    font-family: sans-serif;
+}
+
+@media(max-width:660px){
+  .col{
+    width: 100%;
+    height: 80vh;
+  }
+  .container{
+    width: 260%;
+  }
+}
+
+@media(min-width:960px){
+  .col{
+    width: 90%;
+    height: 70vh;
+  }
+  .container{
+    width: 100%;
+    height: 50vh;
+  }
+}
